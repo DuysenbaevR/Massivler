@@ -9,5 +9,5 @@ for i in range(n):
     a.append(int(input('Manis kiritin:  ')))
     sum += a[i]
 for k in range(n):
-    s = str(a[k]) + ', '
-print(f"{s}, Orta arifmetigi: {sum/n}")
+    print(a[k], end=", ")
+print(f"Orta arifmetigi: {sum/n}")
